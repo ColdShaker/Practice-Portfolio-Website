@@ -1,0 +1,14 @@
+npx create-react-app react-portfolio
+
+npm i:
+sass - extends functionilaty of css, allowing for more features like variables, nesting, mixins, inheritance, etc
+react-router-dom
+react-loaders
+react-leaflet
+loaders.css
+gsap trial
+animate.css
+@fortawesome/react-fontawesome
+@fortawesome/free-solid-svg-icons
+@fortawesome/free-brands-svg-icons
+@emailjs/browser
