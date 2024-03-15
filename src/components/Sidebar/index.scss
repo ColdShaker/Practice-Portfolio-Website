@@ -1,0 +1,33 @@
+.nav-bar {
+    background: #181818;
+    width: 60px;
+
+    //This means the nav bar takes up 100% of the height of the parent object it's stored in
+    height: 100%;
+
+    //Since the nav-bar sits sort of "above" the rest of the elements, it's position should not be
+    //Affected by them. So it's position is absolute
+    position: absolute;
+
+    //The element sits flush with the top of the nav-bar's containing element
+    top: 0;
+    z-index: 3;
+    min-height: 500px;
+}
+
+.logo {
+    display: block;
+            //top and bottom padding is 8px, left and right is zero
+    padding: 8px 0;
+}
+
+//There is no period before this because it doesn't select a specific element, 
+//but rather all image elements
+img {
+    display: block;
+    //top and bottom have 8px margin, auto centers the image to the left and right
+    margin: 8px auto;
+    width: 24px;
+    height: auto;
+}
+
